@@ -4,7 +4,7 @@
   <groupId>de.cosmocode</groupId>
   <artifactId>cosmocode-parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <name>Cosmocode Parent POM</name>
   <url>http://www.cosmocode.de</url>
   <repositories>
@@ -39,6 +39,9 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <scm>
+  	<developerConnection>scm:svn:http://commons.svn.cosmocode.de/cosmocode-parent/trunk</developerConnection>
+  </scm>
   <build>
     <pluginManagement>
       <plugins>
