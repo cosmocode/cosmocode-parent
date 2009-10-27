@@ -23,7 +23,7 @@
       <url>http://repository.codehaus.org</url>
     </repository>
     <repository>
-    	<id>cosmocode-repository</id>
+    	<id>cosmocode-web-repository</id>
     	<name>CosmoCode Repository</name>
     	<url>http://mvn.cosmocode.de/</url>
     </repository>
