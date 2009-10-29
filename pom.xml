@@ -32,7 +32,7 @@
   	<repository>
   		<id>cosmocode-repository</id>
   		<name>CosmoCode Repository</name>
-  		<url>scp://mvn.cosmocode.de/var/www/mvn</url>
+  		<url>scp://mvn.cosmocode.de:6589/var/www/mvn</url>
   	</repository>
   </distributionManagement>
   <properties>
