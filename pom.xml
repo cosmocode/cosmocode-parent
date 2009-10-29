@@ -3,7 +3,7 @@
   <groupId>de.cosmocode</groupId>
   <artifactId>cosmocode-parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.3-SNAPSHOT</version>
+  <version>1.2.2</version>
   <name>Cosmocode Parent POM</name>
   <url>http://www.cosmocode.de</url>
   <repositories>
@@ -32,14 +32,14 @@
   	<repository>
   		<id>cosmocode-repository</id>
   		<name>CosmoCode Repository</name>
-  		<url>scp://mvn.cosmocode.de/var/www/mvn</url>
+  		<url>scp://mvn.cosmocode.de:6589/var/www/mvn</url>
   	</repository>
   </distributionManagement>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <scm>
-  	<developerConnection>scm:svn:http://commons.svn.cosmocode.de/cosmocode-parent/trunk</developerConnection>
+  	<developerConnection>scm:svn:http://commons.svn.cosmocode.de/cosmocode-parent/tags/1.2.2</developerConnection>
   </scm>
   <build>
     <pluginManagement>
