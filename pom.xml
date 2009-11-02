@@ -159,7 +159,7 @@
       <dependency>
         <groupId>de.cosmocode</groupId>
         <artifactId>cosmocode-collections</artifactId>
-        <version>1.1.1</version>
+        <version>1.1.2</version>
       </dependency>
       <dependency>
         <groupId>de.cosmocode</groupId>
@@ -179,7 +179,7 @@
       <dependency>
         <groupId>de.cosmocode</groupId>
         <artifactId>cosmocode-junit</artifactId>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
         <scope>test</scope>
       </dependency>
       <dependency>
