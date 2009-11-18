@@ -27,12 +27,12 @@
     <repository>
    <id>artifactory-releases</id>
       <name>Artifactory Releases</name>
-      <url>http://mvn.cosmocode.de/artifactory/libs-releases-local</url>
+      <url>http://mvn.cosmo/artifactory/libs-releases-local</url>
     </repository>
     <snapshotRepository>
       <id>artifactory-snapshots</id>
       <name>Artifactory Snapshots</name>
-      <url>http://mvn.cosmocode.de/artifactory/libs-snapshots-local</url>
+      <url>http://mvn.cosmo/artifactory/libs-snapshots-local</url>
     </snapshotRepository>
   </distributionManagement>
   <properties>
