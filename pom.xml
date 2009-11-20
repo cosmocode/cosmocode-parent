@@ -123,6 +123,9 @@
         <version>2.4</version>
         <configuration>
           <configLocation>/checkstyle.xml</configLocation>
+          <excludes>src/test/**</excludes>
+          <linkXRef>false</linkXRef>
+          <consoleOutput>true</consoleOutput>
         </configuration>
         <dependencies>
           <dependency>
