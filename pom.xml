@@ -193,11 +193,6 @@
       </dependency>
       <dependency>
         <groupId>de.cosmocode</groupId>
-        <artifactId>cosmocode-json</artifactId>
-        <version>0.9</version>
-      </dependency>
-      <dependency>
-        <groupId>de.cosmocode</groupId>
         <artifactId>cosmocode-junit</artifactId>
         <version>1.1</version>
         <scope>test</scope>
