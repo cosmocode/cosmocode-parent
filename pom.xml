@@ -95,7 +95,7 @@
         <artifactId>maven-javadoc-plugin</artifactId>
         <executions>
           <execution>
-            <phase>package</phase>
+            <phase>verify</phase>
             <goals>
               <goal>jar</goal>
             </goals>
@@ -110,7 +110,7 @@
         <artifactId>maven-source-plugin</artifactId>
         <executions>
           <execution>
-            <phase>package</phase>
+            <phase>verify</phase>
             <goals>
               <goal>jar</goal>
             </goals>
@@ -284,10 +284,10 @@
         <artifactId>hibernate-commons-annotations</artifactId>
         <version>3.3.0.ga</version>
         <exclusions>
-        	<exclusion>
-        		<artifactId>hibernate</artifactId>
-        		<groupId>org.hibernate</groupId>
-        	</exclusion>
+          <exclusion>
+            <artifactId>hibernate</artifactId>
+            <groupId>org.hibernate</groupId>
+          </exclusion>
         </exclusions>
       </dependency>
       <dependency>
