@@ -78,6 +78,7 @@
                 <location>/org.eclipse.core.runtime.prefs</location>
               </file>
             </additionalConfig>
+            <sourceExcludes></sourceExcludes>
           </configuration>
           <dependencies>
             <dependency>
@@ -262,7 +263,7 @@
       <dependency>
         <groupId>com.google.collections</groupId>
         <artifactId>google-collections</artifactId>
-        <version>1.0-rc3</version>
+        <version>1.0-rc5</version>
       </dependency>
       <dependency>
         <groupId>org.hibernate</groupId>
