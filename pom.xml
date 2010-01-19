@@ -226,11 +226,6 @@
         <version>1.4-SNAPSHOT</version>
       </dependency>
       <dependency>
-        <groupId>de.cosmocode.palava</groupId>
-        <artifactId>palava-annotations</artifactId>
-        <version>1.4-SNAPSHOT</version>
-      </dependency>
-      <dependency>
         <groupId>commons-lang</groupId>
         <artifactId>commons-lang</artifactId>
         <version>2.4</version>
