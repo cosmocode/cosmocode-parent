@@ -209,12 +209,12 @@
       <dependency>
         <groupId>de.cosmocode</groupId>
         <artifactId>cosmocode-collections</artifactId>
-        <version>1.2.1</version>
+        <version>1.2.2</version>
       </dependency>
       <dependency>
         <groupId>de.cosmocode</groupId>
         <artifactId>cosmocode-commons</artifactId>
-        <version>1.2.2</version>
+        <version>1.2.3</version>
       </dependency>
       <dependency>
         <groupId>de.cosmocode</groupId>
