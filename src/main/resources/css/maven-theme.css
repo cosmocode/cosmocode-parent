@@ -35,14 +35,12 @@ code{
 a {
   text-decoration: none;
 }
-a:link {
-  color:#333333;
-}
-a:visited  {
-  color:#47a;
+a:link,
+a:visited {
+  color:#223142;
 }
 a:active, a:hover {
-  color:#112;
+    color: #3B6793; 
 }
 strong {
     color: #333;
@@ -128,8 +126,11 @@ p {
   -moz-border-radius: 7px;
   -webkit-border-radius:7px;
   border-radius:7px;
+  margin-bottom: 5px;
 }
-
+#navcolumn ul {
+    margin-bottom: 5px;
+}
 #navcolumn li {
     font-size: 11px;
 }
@@ -173,6 +174,9 @@ dt {
 #organizationLogo img, #projectLogo img, #projectLogo span{
   margin: 8px;
 }
+#navcolumn img {
+    margin-top: 20px;
+}
 #banner {
   border-bottom: 1px solid #fff;
     height: 63px;
@@ -186,9 +190,13 @@ dt {
     width:190px;
 }
 
+a:hover#bannerLeft {
+    color: #2D5D8F;
+}
 #bannerLeft {
     margin-left: 10px;
     font-size: xx-large;
+    color: #2D5D8F;
 }
 
 #bannerRight {
@@ -207,7 +215,7 @@ dt {
     border-radius:6px;
     font-size:11px;
     margin:0 0 17px;
-    overflow:hidden;
+    overflow:auto;
     margin-top: 15px;
     padding: 8px;
     box-shadow: 0px 0px 8px #999;
@@ -215,12 +223,18 @@ dt {
 }
 
 #bodyColumn .section h2 {
-    margin: 0px 0 5px;
+    margin: 0px 0 15px;
     background-color: #ACBFD0;
     -moz-border-radius: 6px;
     -webkit-border-radius:6px;
     border-radius:6px;
+}
 
+#bodyColumn .section h3 {
+    margin-top: 5px;
+    font-weight: bold;
+    border: none;
+    padding:0;
 }
 
 #bodyColumn .section h1,
@@ -228,7 +242,7 @@ dt {
 #bodyColumn .section h3,
 #bodyColumn .section h4,
 #bodyColumn .section h5{
-    color: #3B6793; 
+    color:#223142; 
 }
 
 #bodyColumn .section li{
