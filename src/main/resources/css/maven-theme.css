@@ -122,7 +122,7 @@ p {
   font-size: 12px;
   border-bottom: 1px solid #aaaaaa;
   padding-top: 2px;
-  color: #000;
+  color: #223142;
   -moz-border-radius: 7px;
   -webkit-border-radius:7px;
   border-radius:7px;
@@ -222,12 +222,21 @@ a:hover#bannerLeft {
     -moz-box-shadow: 0px 0px 8px #999;
 }
 
+#bodyColumn .section .section {
+    background: none;
+    border:none;
+    margin:0 0 17px;
+    overflow:auto;
+    margin-top: 10px;
+    padding: 8px;
+    box-shadow: 0px 0px 0px #999;
+    -moz-box-shadow: 0px 0px 0px #999;
+}
+
 #bodyColumn .section h2 {
     margin: 0px 0 15px;
-    background-color: #ACBFD0;
-    -moz-border-radius: 6px;
-    -webkit-border-radius:6px;
-    border-radius:6px;
+    border: none;
+    background: none;
 }
 
 #bodyColumn .section h3 {
@@ -235,6 +244,7 @@ a:hover#bannerLeft {
     font-weight: bold;
     border: none;
     padding:0;
+    background: none;
 }
 
 #bodyColumn .section h1,
