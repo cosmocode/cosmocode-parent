@@ -111,10 +111,13 @@ p {
     float: right;
 }
 #leftColumn {
+    background:#FFFFFF url(../images/bg-soft-grey.jpg) repeat-x 0 0;
   width: 200px;
   margin: 15px 0 0 5px;
   border: 1px solid #CCCCCC;
-  background-color: #C4D2DD;
+  -moz-border-radius: 7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
   box-shadow: 2px 2px 4px #666;
   -moz-box-shadow: 2px 2px 4px #666;
 }
@@ -205,6 +208,7 @@ a:hover#bannerLeft {
 
 #bodyColumn {
     margin-left: 220px;
+    margin-right: 5px;
 }
 
 #bodyColumn .section {
