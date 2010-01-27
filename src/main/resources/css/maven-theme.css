@@ -1,0 +1,238 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+body {
+  padding: 0px 0px 10px 0px;
+  background: #fff url(../images/body_gradient.gif) repeat-x scroll left top;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1120px;
+}
+body, td, select, input, li{
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+code{
+  font-family: Courier, monospace;
+  font-size: 13px;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color:#333333;
+}
+a:visited  {
+  color:#47a;
+}
+a:active, a:hover {
+  color:#112;
+}
+#legend li.externalLink {
+  background: url(../images/external.png) left top no-repeat;
+  padding-left: 18px;
+}
+a.externalLink, a.externalLink:link, a.externalLink:visited, a.externalLink:active, a.externalLink:hover {
+  background: url(../images/external.png) right center no-repeat;
+  padding-right: 18px;
+}
+#legend li.newWindow {
+  background: url(../images/newwindow.png) left top no-repeat;
+  padding-left: 18px;
+}
+a.newWindow, a.newWindow:link, a.newWindow:visited, a.newWindow:active, a.newWindow:hover {
+  background: url(../images/newwindow.png) right center no-repeat;
+  padding-right: 18px;
+}
+
+h1, h2, h3, h4, h5, #banner span {
+    color: #3B6793;
+    font-family: Trebuchet MS,Arial,Helvetica,sans-serif;
+}
+
+h2 {
+  padding: 4px 4px 4px 6px;
+  border: 1px solid #999;
+  color: #900;
+  background-color: #ddd;
+  font-weight:900;
+  font-size: x-large;
+}
+h3 {
+  padding: 4px 4px 4px 6px;
+  border: 1px solid #aaa;
+  color: #900;
+  background-color: #eee;
+  font-weight: normal;
+  font-size: large;
+}
+h4 {
+  padding: 4px 4px 4px 6px;
+  border: 1px solid #bbb;
+  color: #900;
+  background-color: #fff;
+  font-weight: normal;
+  font-size: large;
+}
+h5 {
+  padding: 4px 4px 4px 6px;
+  color: #900;
+  font-size: medium;
+}
+p {
+  line-height: 1.3em;
+  font-size: small;
+}
+#breadcrumbs {
+  background-color: #3B6793;
+  box-shadow: 2px 2px 4px #666;
+  -moz-box-shadow: 2px 2px 4px #666;
+  color: #CBE0F4;
+  font-weight: bold;
+}
+#breadcrumbs div.xleft {
+    float: right;
+}
+#leftColumn {
+  width: 200px;
+  margin: 15px 0 0 5px;
+  border: 1px solid #CCCCCC;
+  background-color: #C4D2DD;
+  box-shadow: 2px 2px 4px #666;
+  -moz-box-shadow: 2px 2px 4px #666;
+}
+#navcolumn h5 {
+  font-size: 12px;
+  border-bottom: 1px solid #aaaaaa;
+  padding-top: 2px;
+  color: #000;
+}
+
+#navcolumn li {
+    font-size: 11px;
+}
+
+#navcolumn .expanded {
+    font-size: 11px;
+}
+
+table.bodyTable th {
+  color: white;
+  background-color: #bbb;
+  text-align: left;
+  font-weight: bold;
+}
+
+table.bodyTable th, table.bodyTable td {
+  font-size: 1em;
+}
+
+table.bodyTable tr.a {
+  background-color: #ddd;
+}
+
+table.bodyTable tr.b {
+  background-color: #eee;
+}
+
+.source {
+  border: 1px solid #999;
+}
+dl {
+  padding: 4px 4px 4px 6px;
+  border: 1px solid #aaa;
+  background-color: #ffc;
+}
+dt {
+  color: #900;
+}
+#organizationLogo img, #projectLogo img, #projectLogo span{
+  margin: 8px;
+}
+#banner {
+  border-bottom: 1px solid #fff;
+    height: 63px;
+    background:transparent url(../images/logo_cosmocode.png) no-repeat scroll right 10px;
+    padding-top: 10px;
+}
+#banner div.logo a {
+    display:block;
+    float:left;
+    height:30px;
+    text-indent:-9999px;
+    width:190px;
+}
+
+#bannerLeft {
+    position: absolute;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: xx-large;
+}
+
+#bodyColumn {
+    margin-left: 220px;
+}
+
+#bodyColumn .section {
+    background:#FFFFFF url(images/bg-soft-grey.jpg) repeat-x 0 0;
+    border:1px solid #CCCCCC;
+    -moz-border-radius: 7px;
+    -webkit-border-radius:7px;
+    font-size:11px;
+    margin:0 0 17px;
+    overflow:auto;
+    margin-top: 15px;
+    padding: 8px;
+}
+
+#bodyColumn .section h2 {
+    margin: 15px 0 10px;
+    background-color: #ACBFD0;
+}
+
+#bodyColumn .section h1,
+#bodyColumn .section h2,
+#bodyColumn .section h3,
+#bodyColumn .section h4,
+#bodyColumn .section h5{
+    color: #3B6793; 
+}
+
+#bodyColumn .section li{
+    list-style-type: disc;
+}
+
+.errormark, .warningmark, .donemark, .infomark {
+  background: url(../images/icon_error_sml.gif) no-repeat;
+}
+
+.warningmark {
+  background-image: url(../images/icon_warning_sml.gif);
+}
+
+.donemark {
+  background-image: url(../images/icon_success_sml.gif);
+}
+
+.infomark {
+  background-image: url(../images/icon_info_sml.gif);
+}
+
+
