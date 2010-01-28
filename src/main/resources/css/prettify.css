@@ -42,18 +42,6 @@
     color: #606
 }
 
-.source {
-    background-color: #EAEAEA;
-    border: none;
-    margin: 0.5em;
-}
-
-.source pre {
-    font-family: "Monaco",Courier,monospace;
-    font-size: 0.9em;
-    margin-bottom: 0;
-}
-
 @media print {
     .str {
         color: #060
