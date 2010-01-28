@@ -1,1133 +1,144 @@
- ....loading....
-20 x 115
-    
-URL
-    
-Status
-    
-Domain
-    
-Size
-    
-Timeline
-Firebug's log limit has been reached. 0 entries not shown.      Preferences  
- 
-    
-GET project-reports.html
-http://palava2.org/project-reports.html
-    
-304 Not Modified
-    
-palava2.org
-    
-4.2 KB
-    
- 
-81ms
- 
-    
-GET maven-base.css
-http://palava2.org/css/maven-base.css
-    
-304 Not Modified
-    
-palava2.org
-    
-2.2 KB
-    
- 
-74ms
- 
-    
-GET maven-theme.css
-http://palava2.org/css/maven-theme.css
-    
-304 Not Modified
-    
-palava2.org
-    
-5.6 KB
-    
- 
-76ms
- 
-    
-GET site.css
-http://palava2.org/css/site.css
-    
-304 Not Modified
-    
-palava2.org
-    
-0
-    
- 
-110ms
- 
-    
-GET print.css
-http://palava2.org/css/print.css
-    
-304 Not Modified
-    
-palava2.org
-    
-222 B
-    
- 
-109ms
- 
-    
-GET palava2.png
-http://palava2.org/images/palava2.png
-    
-304 Not Modified
-    
-palava2.org
-    
-4.9 KB
-    
- 
-155ms
- 
-    
-GET logo_cosmocode.png
-http://www.cosmocode.de/lib/tpl/cc/images/logo_cosmocode.png
-    
-304 Not Modified
-    
-cosmocode.de
-    
-1.7 KB
-    
- 
-178ms
- 
-    
-GET maven-feather.png
-http://palava2.org/images/logos/maven-feather.png
-    
-304 Not Modified
-    
-palava2.org
-    
-3.3 KB
-    
- 
-177ms
- 
-    
-GET body_gradient.gif
-http://palava2.org/images/body_gradient.gif
-    
-304 Not Modified
-    
-palava2.org
-    
-1.7 KB
-    
- 
-57ms
- 
-    
-GET bg-soft-grey.jpg
-http://palava2.org/images/bg-soft-grey.jpg
-    
-304 Not Modified
-    
-palava2.org
-    
-430 B
-    
- 
-57ms
- 
-    
-GET external.png
-http://palava2.org/images/external.png
-    
-304 Not Modified
-    
-palava2.org
-    
-230 B
-    
- 
-55ms
- 
-    
-GET collapsed.gif
-http://palava2.org/images/collapsed.gif
-    
-304 Not Modified
-    
-palava2.org
-    
-53 B
-    
- 
-59ms
- 
-    
-GET expanded.gif
-http://palava2.org/images/expanded.gif
-    
-304 Not Modified
-    
-palava2.org
-    
-52 B
-    
- 
-59ms
-    
-13 requests
-            
-24.6 KB
-    
-(24.6 KB from cache)
-342ms (onload: 383ms)
-Firebug's log limit has been reached. 0 entries not shown.      Preferences  
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-</head>
-<body class="composite">
-<div id="banner">
-</div>
-<div id="breadcrumbs">
-</div>
-<div id="leftColumn">
-</div>
-<div id="bodyColumn">
-</div>
-<div class="clear">
-</div>
-<div id="footer">
-</div>
-</body>
-</html>
-    
-URL
-    
-Status
-    
-Domain
-    
-Size
-    
-Timeline
-Firebug's log limit has been reached. 0 entries not shown.      Preferences  
- 
-    
-GET simple-configuration.html
-http://target.palava-core.ortiz.u.devel.cosmo/site/simple-configuration.html
-    
-200 OK
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-4.7 KB
-    
- 
-14ms
- 
-    
-GET maven-base.css
-http://target.palava-core.ortiz.u.devel.cosmo/site/css/maven-base.css
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-2.2 KB
-    
- 
-14ms
- 
-    
-GET maven-theme.css
-http://target.palava-core.ortiz.u.devel.cosmo/site/css/maven-theme.css
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-5.7 KB
-    
- 
-17ms
- 
-    
-GET site.css
-http://target.palava-core.ortiz.u.devel.cosmo/site/css/site.css
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-53 B
-    
- 
-17ms
- 
-    
-GET print.css
-http://target.palava-core.ortiz.u.devel.cosmo/site/css/print.css
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-222 B
-    
- 
-16ms
- 
-    
-GET prettify.css
-http://target.palava-core.ortiz.u.devel.cosmo/site/css/prettify.css
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-970 B
-    
- 
-16ms
-    
-ParamsHeadersPostPutResponseCacheHTML
-Response Headersview source
-Date    Thu, 28 Jan 2010 13:34:11 GMT
-Server  Apache/1.3.34 (Debian) PHP/5.2.0-8+etch16 mod_jk/1.2.18
-Connection  Keep-Alive, Keep-Alive
-Keep-Alive  timeout=15, max=99
-Etag    "325402e-3ca-4b618f93"
-Vary    Host
-Request Headersview source
-Host    target.palava-core.ortiz.u.devel.cosmo
-User-Agent  Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.2.2pre) Gecko/20100128 Ubuntu/9.10 (karmic) Namoroka/3.6.2pre
-Accept  text/css,*/*;q=0.1
-Accept-Language en,es;q=0.8,de;q=0.5,en-us;q=0.3
-Accept-Encoding gzip,deflate
-Accept-Charset  ISO-8859-1,utf-8;q=0.7,*;q=0.7
-Keep-Alive  115
-Connection  keep-alive
-Referer http://target.palava-core.ortiz.u.devel.cosmo/site/simple-configuration.html
-If-Modified-Since   Thu, 28 Jan 2010 13:22:27 GMT
-If-None-Match   "325402e-3ca-4b618f93"
-Cache-Control   max-age=0
-
-.str {
-    color: #080
-}
-
-.kwd {
-    color: #008
-}
-
-.com {
-    color: #800
-}
-
-.typ {
-    color: #606
-}
-
-.lit {
-    color: #066
-}
-
-.pun {
-    color: #660
-}
-
-.pln {
-    color: #000
-}
-
-.tag {
-    color: #008
-}
-
-.atn {
-    color: #606
-}
-
-.atv {
-    color: #080
-}
-
-.dec {
-    color: #606
-}
-
-.source {
-    background-color: #EAEAEA;
-    border: none;
-    margin: 0.5em;
-}
-
-.source pre {
-    font-family: "Monaco",Courier,monospace;
-    font-size: 0.9em;
-    margin-bottom: 0;
-}
-
-@media print {
-    .str {
-        color: #060
-    }
-    .kwd {
-        color: #006;
-        font-weight: bold
-    }
-    .com {
-        color: #600;
-        font-style: italic
-    }
-    .typ {
-        color: #404;
-        font-weight: bold
-    }
-    .lit {
-        color: #044
-    }
-    .pun {
-        color: #440
-    }
-    .pln {
-        color: #000
-    }
-    .tag {
-        color: #006;
-        font-weight: bold
-    }
-    .atn {
-        color: #404
-    }
-    .atv {
-        color: #060
-    }
-}
-
- 
-    
-GET prettify.js
-http://target.palava-core.ortiz.u.devel.cosmo/site/js/prettify.js
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-22.4 KB
-    
- 
-15ms
- 
-    
-GET body_gradient.gif
-http://target.palava-core.ortiz.u.devel.cosmo/site/images/body_gradient.gif
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-1.7 KB
-    
- 
-2ms
- 
-    
-GET palava2.png
-http://www.palava2.org/images/palava2.png
-    
-304 Not Modified
-    
-palava2.org
-    
-4.9 KB
-    
- 
-95ms
- 
-    
-GET logo_cosmocode.png
-http://www.cosmocode.de/lib/tpl/cc/images/logo_cosmocode.png
-    
-304 Not Modified
-    
-cosmocode.de
-    
-1.7 KB
-    
- 
-138ms
- 
-    
-GET maven-feather.png
-http://target.palava-core.ortiz.u.devel.cosmo/site/images/logos/maven-feather.png
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-3.3 KB
-    
- 
-1ms
- 
-    
-GET bg-soft-grey.jpg
-http://target.palava-core.ortiz.u.devel.cosmo/site/images/bg-soft-grey.jpg
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-430 B
-    
- 
-2ms
- 
-    
-GET collapsed.gif
-http://target.palava-core.ortiz.u.devel.cosmo/site/images/collapsed.gif
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-53 B
-    
- 
-1ms
-    
-13 requests
-            
-48.4 KB
-    
-(43.6 KB from cache)
-245ms (onload: 326ms)
-Firebug's log limit has been reached. 0 entries not shown.      Preferences  
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-<title>palava - </title>
-<style media="all" type="text/css">
-</style>
-<link media="print" type="text/css" href="./css/print.css" rel="stylesheet">
-</link>
-<link type="text/css" href="./css/prettify.css" rel="stylesheet">
-1.str {
-2 color: #080
-3}
-4
-5.kwd {
-6 color: #008
-7}
-8
-9.com {
-10 color: #800
-11}
-12
-13.typ {
-14 color: #606
-15}
-16
-17.lit {
-18 color: #066
-19}
-20
-21.pun {
-22 color: #660
-23}
-24
-25.pln {
-26 color: #000
-27}
-28
-29.tag {
-30 color: #008
-31}
-32
-33.atn {
-34 color: #606
-35}
-36
-37.atv {
-38 color: #080
-39}
-40
-41.dec {
-42 color: #606
-43}
-44
-45.source {
-46 background-color: #EAEAEA;
-47 border: none;
-48 margin: 0.5em;
-49}
-50
-51.source pre {
-52 font-family: "Monaco",Courier,monospace;
-53 font-size: 0.9em;
-54 margin-bottom: 0;
-55}
-56
-57@media print {
-58 .str {
-59 color: #060
-60 }
-61 .kwd {
-62 color: #006;
-63 font-weight: bold
-64 }
-65 .com {
-66 color: #600;
-67 font-style: italic
-68 }
-69 .typ {
-70 color: #404;
-71 font-weight: bold
-72 }
-73 .lit {
-74 color: #044
-75 }
-76 .pun {
-77 color: #440
-78 }
-79 .pln {
-80 color: #000
-81 }
-82 .tag {
-83 color: #006;
-84 font-weight: bold
-85 }
-86 .atn {
-87 color: #404
-88 }
-89 .atv {
-90 color: #060
-91 }
-92}
-93
-</link>
-<script src="./js/prettify.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-</script>
-<meta content="en" http-equiv="Content-Language">
-</head>
-<body class="composite">
-<div id="banner">
-</div>
-<div id="breadcrumbs">
-</div>
-<div id="leftColumn">
-</div>
-<div id="bodyColumn">
-<div id="contentBox">
-<div class="section">
-<h2>The Simple Configuration module</h2>
-<p>
-</p>
-<p>
-</p>
-<div class="source">
-<pre>
-<span class="pun">&lt;</span>
-<span class="tag">dependencies</span>
-<span class="pun">&gt;</span>
-<span class="pln">
-</span>
-<span class="pun">&lt;</span>
-<span class="tag">dependency</span>
-<span class="pun">&gt;</span>
-<span class="pln">
-</span>
-<span class="pun">&lt;</span>
-<span class="tag">groupId</span>
-<span class="pun">&gt;</span>
-<span class="pln">com.google.code.rocoto</span>
-<span class="pun">&lt;/</span>
-<span class="tag">groupId</span>
-<span class="pun">&gt;</span>
-<span class="pln">
-</span>
-<span class="pun">&lt;</span>
-<span class="tag">artifactId</span>
-<span class="pun">&gt;</span>
-<span class="pln">rocoto-simple-configuration</span>
-<span class="pun">&lt;/</span>
-<span class="tag">artifactId</span>
-<span class="pun">&gt;</span>
-<span class="pln">
-</span>
-<span class="pun">&lt;</span>
-<span class="tag">version</span>
-<span class="pun">&gt;</span>
-<span class="pln">XX.XX</span>
-<span class="pun">&lt;/</span>
-<span class="tag">version</span>
-<span class="pun">&gt;</span>
-<span class="pln">
-</span>
-<span class="pun">&lt;/</span>
-<span class="tag">dependency</span>
-<span class="pun">&gt;</span>
-<span class="pln">
-</span>
-<span class="pun">&lt;/</span>
-<span class="tag">dependencies</span>
-<span class="pun">&gt;</span>
-</pre>
-</div>
-<p>Then users are ready to load configuration files, but first create the module; once configured, is it possible to create your injector:</p>
-<div class="source">
-</div>
-</div>
-</div>
-</div>
-<div class="clear">
-</div>
-<div id="footer">
-</div>
-</body>
-</html>
-@import "./css/maven-base.css";
-@import "./css/maven-theme.css";
-@import "./css/site.css";
-    
-URL
-    
-Status
-    
-Domain
-    
-Size
-    
-Timeline
-Firebug's log limit has been reached. 0 entries not shown.      Preferences  
- 
-    
-GET simple-configuration.html
-http://target.palava-core.ortiz.u.devel.cosmo/site/simple-configuration.html
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-4.7 KB
-    
- 
-2ms
- 
-    
-GET maven-base.css
-http://target.palava-core.ortiz.u.devel.cosmo/site/css/maven-base.css
-    
-404 Not Found
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-312 B
-    
- 
-2ms
- 
-    
-GET maven-theme.css
-http://target.palava-core.ortiz.u.devel.cosmo/site/css/maven-theme.css
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-5.7 KB
-    
- 
-2ms
- 
-    
-GET site.css
-http://target.palava-core.ortiz.u.devel.cosmo/site/css/site.css
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-53 B
-    
- 
-2ms
- 
-    
-GET prettify.css
-http://target.palava-core.ortiz.u.devel.cosmo/site/css/prettify.css
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-783 B
-    
- 
-3ms
- 
-    
-GET print.css
-http://target.palava-core.ortiz.u.devel.cosmo/site/css/print.css
-    
-404 Not Found
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-307 B
-    
- 
-2ms
- 
-    
-GET prettify.js
-http://target.palava-core.ortiz.u.devel.cosmo/site/js/prettify.js
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-22.4 KB
-    
- 
-2ms
- 
-    
-GET body_gradient.gif
-http://target.palava-core.ortiz.u.devel.cosmo/site/images/body_gradient.gif
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-1.7 KB
-    
- 
-16ms
- 
-    
-GET palava2.png
-http://www.palava2.org/images/palava2.png
-    
-304 Not Modified
-    
-palava2.org
-    
-4.9 KB
-    
- 
-36ms
- 
-    
-GET logo_cosmocode.png
-http://www.cosmocode.de/lib/tpl/cc/images/logo_cosmocode.png
-    
-304 Not Modified
-    
-cosmocode.de
-    
-1.7 KB
-    
- 
-48ms
- 
-    
-GET maven-feather.png
-http://target.palava-core.ortiz.u.devel.cosmo/site/images/logos/maven-feather.png
-    
-404 Not Found
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-324 B
-    
- 
-14ms
- 
-    
-GET bg-soft-grey.jpg
-http://target.palava-core.ortiz.u.devel.cosmo/site/images/bg-soft-grey.jpg
-    
-304 Not Modified
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-430 B
-    
- 
-12ms
- 
-    
-GET print.ss
-http://target.palava-core.ortiz.u.devel.cosmo/site/css/print.ss
-    
-404 Not Found
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-306 B
-    
- 
-6ms
- 
-    
-GET print.css
-http://target.palava-core.ortiz.u.devel.cosmo/site/css/print.css
-    
-404 Not Found
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-307 B
-    
- 
-3ms
- 
-    
-GET prettify.cs
-http://target.palava-core.ortiz.u.devel.cosmo/site/css/prettify.cs
-    
-404 Not Found
-    
-target.palava-core.ortiz.u.devel.cosmo
-    
-309 B
-    
- 
-7ms
-    
-15 requests
-            
-44.2 KB
-    
-(42.4 KB from cache)
-178ms (onload: 232ms)
-Firebug's log limit has been reached. 0 entries not shown.      Preferences  
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-<title>palava - </title>
-<style media="all" type="text/css">
-1
-2 @import url("./css/maven-base.css");
-3 @import url("./css/maven-theme.css");
-4 @import url("./css/site.css");
-5
-</style>
-<link media="all" type="text/css" href="./css/prettify.css" rel="stylesheet">
-</link>
-<link media="print" type="text/css" href="./css/print.css" rel="stylesheet">
-</link>
-<script src="./js/prettify.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-</script>
-<meta content="en" http-equiv="Content-Language">
-</head>
-<body class="composite">
-<div id="banner">
-<a id="bannerLeft" href="http://www.palava2.org/">
-<img alt="palava" src="http://www.palava2.org/images/palava2.png">
-</a>
-<a id="bannerRight" href="http://www.cosmocode.de/">
-<img alt="CosmoCode GmbH" src="http://www.cosmocode.de/lib/tpl/cc/images/logo_cosmocode.png">
-</a>
-<div class="clear">
-</div>
-</div>
-<div id="breadcrumbs">
-<div class="xleft">
-<span id="publishDate">Last Published: 2010-01-28</span>
-&nbsp;|
-<span id="projectVersion">Version: 2.0-SNAPSHOT</span>
-</div>
-<div class="xright"> </div>
-<div class="clear">
-</div>
-</div>
-<div id="leftColumn">
-<div id="navcolumn">
-</div>
-</div>
-<div id="bodyColumn">
-</div>
-<div class="clear">
-</div>
-<div id="footer">
-</div>
-</body>
-</html>
-There are no rules in this stylesheet.
-    
-URL
-    
-Status
-    
-Domain
-    
-Size
-    
-Timeline
-Firebug's log limit has been reached. 0 entries not shown.      Preferences  
-Net panel activated. Any requests while the net panel is inactive are not shown.
-    
--
-            
-0KB
-    
-(0KB from cache)
-0ms
-Firebug's log limit has been reached. 0 entries not shown.      Preferences  
 body {
-margin:0;
-padding:0;
+  margin: 0px;
+  padding: 0px;
 }
 img {
-border:medium none;
+  border:none;
 }
 table {
-margin-left:-2px;
-margin-right:-2px;
-padding:0;
-width:100%;
+  padding:0px;
+  width: 100%;
+  margin-left: -2px;
+  margin-right: -2px;
 }
 acronym {
-border-bottom:1px dotted #FFEEBB;
-cursor:help;
+  cursor: help;
+  border-bottom: 1px dotted #feb;
 }
 table.bodyTable th, table.bodyTable td {
-padding:2px 4px;
-vertical-align:top;
+  padding: 2px 4px 2px 4px;
+  vertical-align: top;
 }
-div.clear {
-clear:both;
-visibility:hidden;
+div.clear{
+  clear:both;
+  visibility: hidden;
 }
-div.clear hr {
-display:none;
+div.clear hr{
+  display: none;
 }
 #bannerLeft, #bannerRight {
-font-size:xx-large;
-font-weight:bold;
+  font-size: xx-large;
+  font-weight: bold;
 }
 #bannerLeft img, #bannerRight img {
-margin:0;
+  margin: 0px;
 }
 .xleft, #bannerLeft img {
-float:left;
+  float:left;
 }
 .xright, #bannerRight {
-float:right;
+  float:right;
 }
 #banner {
-padding:0;
+  padding: 0px;
 }
 #banner img {
-border:medium none;
+  border: none;
 }
 #breadcrumbs {
-padding:3px 10px;
+  padding: 3px 10px 3px 10px;
 }
 #leftColumn {
-float:left;
-overflow:auto;
-width:170px;
+ width: 170px;
+ float:left;
+ overflow: auto;
 }
 #bodyColumn {
-margin-left:197px;
-margin-right:1.5em;
+  margin-right: 1.5em;
+  margin-left: 197px;
 }
 #legend {
-padding:8px 0;
+  padding: 8px 0 8px 0;
 }
 #navcolumn {
-padding:8px 4px 0 8px;
+  padding: 8px 4px 0 8px;
 }
 #navcolumn h5 {
-font-size:small;
-margin:0;
-padding:0;
+  margin: 0;
+  padding: 0;
+  font-size: small;
 }
 #navcolumn ul {
-font-size:small;
-margin:0;
-padding:0;
+  margin: 0;
+  padding: 0;
+  font-size: small;
 }
 #navcolumn li {
-background-image:none;
-background-position:0 0.4em;
-background-repeat:no-repeat;
-font-size:smaller;
-line-height:1.2em;
-list-style-position:outside;
-list-style-type:none;
-padding-left:16px;
+  list-style-type: none;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: 0 0.4em;
+  padding-left: 16px;
+  list-style-position: outside;
+  line-height: 1.2em;
+  font-size: smaller;
 }
 #navcolumn li.expanded {
-background-image:url("../images/expanded.gif");
+  background-image: url(../images/expanded.gif);
 }
 #navcolumn li.collapsed {
-background-image:url("../images/collapsed.gif");
+  background-image: url(../images/collapsed.gif);
 }
 #poweredBy {
-text-align:center;
+  text-align: center;
 }
 #navcolumn img {
-margin-bottom:3px;
-margin-top:10px;
+  margin-top: 10px;
+  margin-bottom: 3px;
 }
 #poweredBy img {
-display:block;
-margin:20px 0 20px 17px;
+  display:block;
+  margin: 20px 0 20px 17px;
 }
 #search img {
-display:block;
-margin:0;
+    margin: 0px;
+    display: block;
 }
 #search #q, #search #btnG {
-border:1px solid #999999;
-margin-bottom:10px;
+    border: 1px solid #999;
+    margin-bottom:10px;
 }
 #search form {
-margin:0;
+    margin: 0px;
 }
 #lastPublished {
-font-size:x-small;
+  font-size: x-small;
 }
 .navSection {
-margin-bottom:2px;
-padding:8px;
+  margin-bottom: 2px;
+  padding: 8px;
 }
 .navSectionHead {
-font-size:x-small;
-font-weight:bold;
+  font-weight: bold;
+  font-size: x-small;
 }
 .section {
-padding:4px;
+  padding: 4px;
 }
 #footer {
-font-size:x-small;
-padding:3px 10px;
+  padding: 3px 10px 3px 10px;
+  font-size: x-small;
 }
 #breadcrumbs {
-font-size:x-small;
-margin:0;
+  font-size: x-small;
+  margin: 0pt;
 }
 .source {
-margin:1em 7px;
-padding:12px;
+  padding: 12px;
+  margin: 1em 7px 1em 7px;
 }
 .source pre {
-margin:0;
-padding:0;
+  margin: 0px;
+  padding: 0px;
 }
 
