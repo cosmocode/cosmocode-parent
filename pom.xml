@@ -17,14 +17,4 @@
   	<version>1.3</version>
   </parent>
 
-  <build>
-
-    <resources>
-        <resource>
-            <directory>src/main/resources</directory>
-        </resource>
-    </resources>
-
-  </build>
-
 </project>
