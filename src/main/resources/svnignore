@@ -1,0 +1,13 @@
+target
+*~
+.classpath
+.project
+.settings
+*.log
+*.ipr
+*.iws
+*.iml
+*.idea
+*.swp
+*.old
+*.bak
