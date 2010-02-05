@@ -48,7 +48,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <scm>
-    <developerConnection>scm:svn:http://commons.svn.cosmocode.de/cosmocode-parent/trunk</developerConnection>
+    <developerConnection>scm:svn:https://commons.svn.cosmocode.de/cosmocode-parent/trunk</developerConnection>
   </scm>
   <build>
     <pluginManagement>
