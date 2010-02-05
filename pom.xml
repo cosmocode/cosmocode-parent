@@ -8,6 +8,15 @@
   <url>http://www.cosmocode.de</url>
   <repositories>
     <repository>
+      <id>mvn.cosmo</id>
+      <name>Internal Maven Repository</name>
+      <url>http://mvn.cosmo/artifactory/repo</url>
+      <snapshots>
+	      <enabled>true</enabled>
+	      <updatePolicy>always</updatePolicy>
+      </snapshots>
+    </repository>
+    <repository>
       <id>download.java.net</id>
       <name>Java.net Repository for Maven</name>
       <url>http://download.java.net/maven/2</url>
