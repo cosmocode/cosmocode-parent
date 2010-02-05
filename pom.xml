@@ -97,6 +97,30 @@
             </dependency>
           </dependencies>
         </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <dependencies>
+                <dependency>
+                    <groupId>de.cosmocode</groupId>
+                    <artifactId>cosmocode-assembly</artifactId>
+                    <version>1.0-SNAPSHOT</version>
+                </dependency>
+            </dependencies>
+            <configuration>
+                <descriptors>
+                    <descriptor>cosmocode-assembly.xml</descriptor>
+                </descriptors>
+            </configuration>
+            <executions>
+                <execution>
+                    <phase>package</phase>
+                    <goals>
+                        <goal>single</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
@@ -164,33 +188,6 @@
           </execution>
         </executions>
       </plugin>
-
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-assembly-plugin</artifactId>
-            <dependencies>
-                <dependency>
-                    <artifactId>cosmocode-assembly</artifactId>
-                    <groupId>de.cosmocode</groupId>
-                    <version>1.0-SNAPSHOT</version>
-                </dependency>
-            </dependencies>
-            <configuration>
-                <descriptors>
-                    <descriptor>cosmocode-assembly.xml</descriptor>
-                </descriptors>
-            </configuration>
-            <executions>
-                <execution>
-                    <phase>package</phase>
-                    <goals>
-                        <goal>single</goal>
-                    </goals>
-                </execution>
-            </executions>
-        </plugin>
-
-
     </plugins>
   </build>
   <reporting>
