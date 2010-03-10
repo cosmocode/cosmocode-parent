@@ -26,15 +26,7 @@
     <profiles>
         <profile>
             <id>cosmocode-private</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
             <distributionManagement>
-                <repository>
-                    <id>cosmocode-private-releases</id>
-                    <name>CosmoCode private releases</name>
-                    <url>http://mvn.cosmo/artifactory/libs-releases-local</url>
-                </repository>
                 <snapshotRepository>
                     <id>cosmocode-private-snapshots</id>
                     <name>CosmoCode private snapshots</name>
