@@ -3,7 +3,7 @@
     <groupId>de.cosmocode</groupId>
     <artifactId>cosmocode-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.4-SNAPSHOT</version>
+    <version>1.4.0-SNAPSHOT</version>
     <name>CosmoCode Parent POM</name>
     <url>http://www.cosmocode.de</url>
     <repositories>
