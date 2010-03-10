@@ -23,25 +23,22 @@
             <url>http://repository.codehaus.org</url>
         </repository>
     </repositories>
+    <distributionManagement>
+	<repository>
+	    <id>cosmocode-public-releases</id>
+	    <name>CosmoCode public releases</name>
+	    <url>scp://mvn.cosmocode.de:6589/var/www/mvn/</url>
+	</repository>
+	<snapshotRepository>
+	    <id>cosmocode-private-snapshots</id>
+	    <name>CosmoCode private snapshots</name>
+	    <url>http://mvn.cosmo/artifactory/libs-snapshots-local</url>
+	</snapshotRepository>
+    </distributionManagement>
     <profiles>
         <profile>
-            <id>cosmocode-private</id>
+            <id>cosmocode-public-snapshots</id>
             <distributionManagement>
-                <snapshotRepository>
-                    <id>cosmocode-private-snapshots</id>
-                    <name>CosmoCode private snapshots</name>
-                    <url>http://mvn.cosmo/artifactory/libs-snapshots-local</url>
-                </snapshotRepository>
-            </distributionManagement>
-        </profile>
-        <profile>
-            <id>cosmocode-public</id>
-            <distributionManagement>
-                <repository>
-                    <id>cosmocode-public-releases</id>
-                    <name>CosmoCode public releases</name>
-                    <url>scp://mvn.cosmocode.de:6589/var/www/mvn/</url>
-                </repository>
                 <snapshotRepository>
                     <id>cosmocode-public-snapshots</id>
                     <name>CosmoCode public snapshots</name>
