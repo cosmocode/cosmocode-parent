@@ -3,7 +3,7 @@
     <groupId>de.cosmocode</groupId>
     <artifactId>cosmocode-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.4-SNAPSHOT</version>
+    <version>1.4.0</version>
     <name>CosmoCode Parent POM</name>
     <url>http://www.cosmocode.de</url>
     <repositories>
@@ -62,7 +62,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <scm>
-        <developerConnection>scm:svn:https://commons.svn.cosmocode.de/cosmocode-parent/trunk</developerConnection>
+        <developerConnection>scm:svn:https://commons.svn.cosmocode.de/cosmocode-parent/tags/1.4.0</developerConnection>
     </scm>
     <build>
         <pluginManagement>
@@ -101,7 +101,7 @@
                                 <location>/org.eclipse.core.runtime.prefs</location>
                             </file>
                         </additionalConfig>
-                        <sourceExcludes></sourceExcludes>
+                        <sourceExcludes />
                     </configuration>
                     <dependencies>
                         <dependency>
