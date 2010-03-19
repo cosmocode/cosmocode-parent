@@ -6,34 +6,17 @@
   <version>1.6-SNAPSHOT</version>
   <name>CosmoCode Parent POM</name>
   <url>http://www.cosmocode.de</url>
-  <repositories>
-    <repository>
-      <id>download.java.net</id>
-      <name>Java.net Repository for Maven</name>
-      <url>http://download.java.net/maven/2</url>
-    </repository>
-    <repository>
-      <id>repository.jboss.org</id>
-      <name>JBoss Repository</name>
-      <url>http://repository.jboss.org/maven2</url>
-    </repository>
-    <repository>
-      <id>repository.codehaus.org</id>
-      <name>Codehaus Repository</name>
-      <url>http://repository.codehaus.org</url>
-    </repository>
-  </repositories>
   <distributionManagement>
-  <repository>
-    <id>cosmocode-public-releases</id>
-    <name>CosmoCode public releases</name>
-    <url>scp://mvn.cosmocode.de:6589/var/www/mvn/</url>
-  </repository>
-  <snapshotRepository>
-    <id>cosmocode-private-snapshots</id>
-    <name>CosmoCode private snapshots</name>
-    <url>http://mvn.cosmo/repository/snapshots</url>
-  </snapshotRepository>
+    <repository>
+      <id>cosmocode-public-releases</id>
+      <name>CosmoCode public releases</name>
+      <url>scp://mvn.cosmocode.de:6589/var/www/mvn/</url>
+    </repository>
+    <snapshotRepository>
+      <id>cosmocode-private-snapshots</id>
+      <name>CosmoCode private snapshots</name>
+      <url>http://mvn.cosmo/repository/snapshots</url>
+    </snapshotRepository>
   </distributionManagement>
   <profiles>
     <profile>
