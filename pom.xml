@@ -1,6 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>de.cosmocode</groupId>
+        <artifactId>cosmocode-distribution</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
     <name>CosmoCode Parent POM</name>
 
     <groupId>de.cosmocode</groupId>
@@ -77,7 +83,7 @@
                     <dependency>
                         <groupId>de.cosmocode</groupId>
                         <artifactId>cosmocode-licenses</artifactId>
-                        <version>[1,2)</version>
+                        <version>[1.1,2)</version>
                     </dependency>
                 </dependencies>
             </plugin>
@@ -134,7 +140,7 @@
                     <dependency>
                         <groupId>de.cosmocode</groupId>
                         <artifactId>checkstyle-config</artifactId>
-                        <version>[1.2,2)</version>
+                        <version>[1.3,2)</version>
                     </dependency>
                 </dependencies>
                 <configuration>
@@ -154,14 +160,6 @@
                 </executions>
             </plugin>
         </plugins>
-
-        <extensions>
-            <extension>
-                <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-ssh</artifactId>
-                <version>1.0-beta-6</version>
-            </extension>
-        </extensions>
 
         <pluginManagement>
             <plugins>
@@ -208,7 +206,7 @@
                         <dependency>
                             <groupId>de.cosmocode</groupId>
                             <artifactId>eclipse-config</artifactId>
-                            <version>[1.2,2)</version>
+                            <version>[1.3,2)</version>
                         </dependency>
                     </dependencies>
                 </plugin>
@@ -221,7 +219,7 @@
                         <dependency>
                             <groupId>de.cosmocode</groupId>
                             <artifactId>cosmocode-assembly</artifactId>
-                            <version>[1.1,2)</version>
+                            <version>[1.2,2)</version>
                         </dependency>
                     </dependencies>
                     <configuration>
@@ -278,39 +276,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <distributionManagement>
-        <repository>
-            <id>cosmocode-public-releases</id>
-            <name>CosmoCode public releases</name>
-            <url>scp://mvn.cosmocode.de:6589/var/www/mvn/</url>
-        </repository>
-        <snapshotRepository>
-            <id>cosmocode-private-snapshots</id>
-            <name>CosmoCode private snapshots</name>
-            <url>http://mvn.cosmo/repository/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
-    <profiles>
-        <profile>
-            <id>cosmocode-public-snapshots</id>
-            <distributionManagement>
-                <snapshotRepository>
-                    <id>cosmocode-public-snapshots</id>
-                    <name>CosmoCode public snapshots</name>
-                    <url>scp://mvn.cosmocode.de:6589/var/www/mvn/</url>
-                </snapshotRepository>
-            </distributionManagement>
-        </profile>
-        <profile>
-            <id>cosmocode-private-releases</id>
-            <distributionManagement>
-                <repository>
-                    <id>cosmocode-private-releases</id>
-                    <name>CosmoCode private releases</name>
-                    <url>http://mvn.cosmo/repository/internal</url>
-                </repository>
-            </distributionManagement>
-        </profile>
-    </profiles>
 </project>
