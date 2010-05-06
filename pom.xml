@@ -42,8 +42,6 @@
                     <includes>
                         <include>**/*.java</include>
                         <include>**/*.aj</include>
-                        <!-- unix -->
-                        <include>**/*.sh</include>
                         <!-- web -->
                         <include>**/*.html</include>
                         <include>**/*.xhtml</include>
@@ -51,7 +49,6 @@
                         <include>**/*.css</include>
                         <include>**/*.as</include>
                         <include>**/*.mxml</include>
-                        <include>**/*.php</include>
                         <!-- xml -->
                         <include>**/*.xml</include>
                         <include>**/*.xsd</include>
@@ -59,8 +56,6 @@
                         <include>**/*.xsl</include>
                         <!-- sql -->
                         <include>**/*.sql</include>
-                        <!-- velocity -->
-                        <include>**/*.vm</include>
                     </includes>
                 </configuration>
                 <executions>
