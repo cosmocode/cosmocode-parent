@@ -42,13 +42,6 @@
                     <includes>
                         <include>**/*.java</include>
                         <include>**/*.aj</include>
-                        <!-- web -->
-                        <include>**/*.html</include>
-                        <include>**/*.xhtml</include>
-                        <include>**/*.js</include>
-                        <include>**/*.css</include>
-                        <include>**/*.as</include>
-                        <include>**/*.mxml</include>
                         <!-- xml -->
                         <include>**/*.xml</include>
                         <include>**/*.xsd</include>
