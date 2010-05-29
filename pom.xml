@@ -235,6 +235,14 @@
 		</pluginManagement>
 	</build>
 
+	<dependencies>
+		<dependency>
+			<groupId>com.google.gag</groupId>
+			<artifactId>gag</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+	</dependencies>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
