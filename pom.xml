@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>de.cosmocode</groupId>
@@ -192,7 +193,6 @@
             </dependency>
           </dependencies>
         </plugin>
-
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-assembly-plugin</artifactId>
@@ -221,7 +221,6 @@
       </plugins>
     </pluginManagement>
   </build>
-
   <dependencies>
     <dependency>
       <groupId>com.google.code.findbugs</groupId>
@@ -234,7 +233,6 @@
       <version>1.0.1</version>
     </dependency>
   </dependencies>
-
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -255,14 +253,14 @@
         <version>1.6.0</version>
       </dependency>
       <dependency>
-	<groupId>ch.qos.logback</groupId>
-	<artifactId>logback-core</artifactId>
-	<version>0.9.21</version>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-core</artifactId>
+        <version>0.9.21</version>
       </dependency>
       <dependency>
-	<groupId>ch.qos.logback</groupId>
-	<artifactId>logback-classic</artifactId>
-	<version>0.9.21</version>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>0.9.21</version>
       </dependency>
       <dependency>
         <groupId>org.slf4j</groupId>
@@ -275,9 +273,9 @@
         <version>2.4</version>
       </dependency>
       <dependency>
-        <groupId>com.google.collections</groupId>
-        <artifactId>google-collections</artifactId>
-        <version>1.0</version>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <version>r05</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
