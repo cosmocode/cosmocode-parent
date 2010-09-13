@@ -139,10 +139,11 @@
           <excludes>src/test/**</excludes>
           <linkXRef>false</linkXRef>
           <consoleOutput>true</consoleOutput>
+          <logViolationsToConsole>true</logViolationsToConsole>
         </configuration>
         <executions>
           <execution>
-            <phase>verify</phase>
+            <phase>compile</phase>
             <goals>
               <goal>check</goal>
             </goals>
