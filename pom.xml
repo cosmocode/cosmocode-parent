@@ -135,11 +135,12 @@
         </dependencies>
         <configuration>
           <configLocation>checkstyle.xml</configLocation>
-          <failOnViolation>false</failOnViolation>
-          <excludes>src/test/**</excludes>
-          <linkXRef>false</linkXRef>
           <consoleOutput>true</consoleOutput>
           <logViolationsToConsole>true</logViolationsToConsole>
+          <failOnViolation>true</failOnViolation>
+          <failsOnError>true</failsOnError>
+          <violationSeverity>warning</violationSeverity>
+          <linkXRef>false</linkXRef>
         </configuration>
         <executions>
           <execution>
