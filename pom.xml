@@ -8,14 +8,14 @@
   <name>CosmoCode Parent POM</name>
   <groupId>de.cosmocode</groupId>
   <artifactId>cosmocode-parent</artifactId>
-  <version>2.6-SNAPSHOT</version>
+  <version>2.6.0</version>
   <packaging>pom</packaging>
   <url>http://www.cosmocode.de</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <scm>
-    <developerConnection>scm:svn:https://commons.svn.cosmocode.de/cosmocode-parent/trunk</developerConnection>
+    <developerConnection>scm:svn:https://commons.svn.cosmocode.de/cosmocode-parent/tags/2.6.0</developerConnection>
   </scm>
   <repositories>
     <repository>
