@@ -18,7 +18,7 @@
     <maven>3.0</maven>
   </prerequisites>
   <scm>
-    <developerConnection>scm:svn:https://commons.svn.cosmocode.de/cosmocode-parent/trunk</developerConnection>
+    <developerConnection>scm:git:git@github.com:cosmocode/${project.artifactId}.git</developerConnection>
   </scm>
   <repositories>
     <repository>
