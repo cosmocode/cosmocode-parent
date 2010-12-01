@@ -165,6 +165,25 @@
           <targetJdk>1.6</targetJdk>
           <verbose>true</verbose>
         </configuration>
+        <executions>
+          <execution>
+            <id>check</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+          <execution>
+            <id>cpd-check</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>cpd-check</goal>
+            </goals>
+            <configuration>
+              <failOnViolation>false</failOnViolation>
+            </configuration>
+          </execution>
+        </executions>
       </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
@@ -173,6 +192,14 @@
         <configuration>
           <fork>false</fork>
         </configuration>
+        <executions>
+          <execution>
+            <phase>process-classes</phase>
+            <goals>
+              <goal>check</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
     <pluginManagement>
