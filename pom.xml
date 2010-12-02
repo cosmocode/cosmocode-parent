@@ -177,6 +177,7 @@
           </execution>
         </executions>
       </plugin>
+      <!-- exluded until final release for maven 3 is available
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>findbugs-maven-plugin</artifactId>
@@ -193,6 +194,7 @@
           </execution>
         </executions>
       </plugin>
+      -->
     </plugins>
     <pluginManagement>
       <plugins>
