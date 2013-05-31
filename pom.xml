@@ -133,7 +133,7 @@
                 <dependencies>
                     <dependency>
                         <groupId>de.cosmocode</groupId>
-                        <artifactId>checkstyle-config</artifactId>
+                        <artifactId>cosmocode-checkstyle</artifactId>
                         <version>[1.4,2)</version>
                     </dependency>
                 </dependencies>
