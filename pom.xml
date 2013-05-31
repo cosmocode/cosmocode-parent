@@ -183,7 +183,7 @@
                 <version>2.5.2</version>
                 <configuration>
                     <fork>false</fork>
-
+                    <failOnError>false</failOnError>
                 </configuration>
                 <executions>
                     <execution>
